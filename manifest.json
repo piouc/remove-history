@@ -1,0 +1,15 @@
+{
+  "name": "Remove history",
+  "description": "Remove history",
+  "version": "0.1",
+  "icons": {
+    "16": "icon.png"
+  },
+  "manifest_version": 3,
+  "permissions": [
+    "history"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
